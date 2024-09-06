@@ -1,0 +1,7 @@
+./*
+./**/*
+!*.sh
+!/spatie
+!/collectivelaravel
+!LICENSE
+!README.md
