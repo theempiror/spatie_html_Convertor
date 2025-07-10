@@ -68,7 +68,7 @@ LaravelCollective HTML typically uses static facade calls, while Spatie uses a f
 ```php
 {{ html()->form('POST', 'foo/bar') }}
     {{ html()->text('name', 'value')->class('form-control') }}
-{{  html()->form()->close() }}
+{{ html()->form()->close() }}
 ```
 
 ### Key Component Changes
