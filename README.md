@@ -143,7 +143,7 @@ Spatie automatically includes CSRF tokens in forms, so you don't need to add the
 ## Differences to be Aware Of
 
 ### Method Naming
-Some method names differ between packages. For example, `Html::entities()` becomes `html()->entities()`.
+Some method names differ between packages. For example, `Form::open()` in LaravelCollective becomes `html()->form()` in Spatie's package.
 
 ### Fluent Interface
 Spatie's package uses a fluent interface for method chaining, which is different from LaravelCollective's approach.
